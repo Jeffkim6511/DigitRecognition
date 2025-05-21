@@ -2,11 +2,11 @@
 
 Digit Recognizer is a desktop application that identifies handwritten digits drawn on a canvas and predicts the number using a trained Convolutional Neural Network (CNN) model.
 
+![Digit Recognition Demo](DigitRecognition.gif)
+
 ## 🚀 Overview
 
 This project combines machine learning with a graphical user interface to provide a simple and interactive way to test handwritten digit recognition. The backend model is built using **TensorFlow** and trained on the **MNIST dataset**, while the frontend interface is developed using **Tkinter**.
-
-![Digit Recognition Demo](DigitRecognition.gif)
 
 ## 🧠 How It Works
 
