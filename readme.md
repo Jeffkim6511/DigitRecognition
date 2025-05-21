@@ -6,6 +6,8 @@ Digit Recognizer is a desktop application that identifies handwritten digits dra
 
 This project combines machine learning with a graphical user interface to provide a simple and interactive way to test handwritten digit recognition. The backend model is built using **TensorFlow** and trained on the **MNIST dataset**, while the frontend interface is developed using **Tkinter**.
 
+![Digit Recognition Demo](DigitRecognition.gif)
+
 ## 🧠 How It Works
 
 1. **Draw a Digit**  
