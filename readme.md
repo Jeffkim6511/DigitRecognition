@@ -2,13 +2,9 @@
 
 Digit Recognizer is a desktop application that identifies handwritten digits drawn on a canvas and predicts the number using a trained Convolutional Neural Network (CNN) model.
 
----
-
 ## 🚀 Overview
 
 This project combines machine learning with a graphical user interface to provide a simple and interactive way to test handwritten digit recognition. The backend model is built using **TensorFlow** and trained on the **MNIST dataset**, while the frontend interface is developed using **Tkinter**.
-
----
 
 ## 🧠 How It Works
 
@@ -28,15 +24,11 @@ This project combines machine learning with a graphical user interface to provid
    - `Reset` button clears the canvas.
    - `Predict` button triggers prediction.
 
----
-
 ## 🧱 Tech Stack
 
 - **Frontend**: Tkinter (Python GUI library)
 - **Backend**: TensorFlow with Keras
 - **Image Processing**: Pillow (PIL fork)
-
----
 
 ## 🧪 Model Details
 
@@ -50,7 +42,6 @@ This project combines machine learning with a graphical user interface to provid
   - Model is saved using TensorFlow’s `.save()` functionality
   - Loaded dynamically in the application
 
----
 
 ## 🔄 Modifying the Model
 
@@ -60,9 +51,9 @@ To retrain or modify the CNN architecture:
 3. Retrain the model with the MNIST dataset or your own data.
 4. Save the updated model to be used in the application.
 
----
-
 ## 🖥️ Running the Application
+Run the main application file:
+- python app.py
 
 ### 📦 Prerequisites
 
@@ -77,41 +68,26 @@ Run the main application file:
 
 python app.py
 
-📸 Features
+## 📸 Features
 
-    🖌 Interactive Canvas
-    Draw digits directly with the mouse.
+- 🖌 **Interactive Canvas**  
+  Draw digits directly with the mouse.
 
-    📤 Image Preprocessing
-    Automatically converts canvas drawing to 28x28 grayscale image.
+- 📤 **Image Preprocessing**  
+  Automatically converts canvas drawing to 28x28 grayscale image.
 
-    🔍 Accurate Predictions
-    Shows top prediction, prediction confidence, and the second-highest probability digit.
+- 🔍 **Accurate Predictions**  
+  Shows top prediction, prediction confidence, and the second-highest probability digit.
 
-    🧼 Reset Capability
-    Easily clear the canvas to try a new digit.
+- 🧼 **Reset Capability**  
+  Easily clear the canvas to try a new digit.
 
-📁 File Structure
-
-.
-├── app.py            # Main application file with UI logic
-├── Model.py          # Contains CNN model architecture and training code
-├── saved_model/      # Directory containing the trained model
-├── utils.py          # Optional: preprocessing and helper functions
-
-🎓 Educational Purpose
-
-This project was built for learning and demonstration purposes. It illustrates how deep learning models can be integrated with simple user interfaces to create interactive applications.
 📄 License
+- This project is licensed for educational and personal use only.
+- Commercial use and redistribution are not permitted.
 
-This project is licensed for educational and personal use only.
-Commercial use and redistribution are not permitted.
 🙌 Acknowledgments
-
-    MNIST Handwritten Digits Dataset
-
-    TensorFlow
-
-    Tkinter
-
-    Pillow (PIL Fork)
+- MNIST Handwritten Digits Dataset
+- TensorFlow
+- Tkinter
+- Pillow (PIL Fork)
